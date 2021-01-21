@@ -19,3 +19,5 @@ In terminal, start your server by running
 cd Pokemon-Showdown
 node pokemon-showdown
 ```
+
+## Creating your first Greedy Agent
