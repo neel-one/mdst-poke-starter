@@ -54,3 +54,5 @@ class Agent(Player):
 ```
 
 In this case some of the methods and properties used were `battle.available_moves` and `move.base_power`. Poke-env's core objects, including Battle, Move, etc. provide many many attributes and methods that we can access data useful for creating Agents.
+
+For a more detailed explanation, please visit the official documentation. This example is only meant to give a slight introduction to our environment for PokeRL.
