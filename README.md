@@ -11,7 +11,7 @@ pip install poke-env
 
 In terminal, install a server to run your agent on a clone of https://pokemonshowdown.com
 ```
- git clone https://github.com/hsahovid/Pokemon-Showdown.git
+ git clone https://github.com/hsahovic/Pokemon-Showdown.git
 ```
 
 In terminal, start your server by running
