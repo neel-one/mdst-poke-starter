@@ -17,7 +17,7 @@ In terminal, install a server to run your agent on a clone of https://pokemonsho
 In terminal, start your server by running
 ```
 cd Pokemon-Showdown
-node pokemon-showdown
+node pokemon-showdown start --no-security
 ```
 
 ## Creating your first Agent
