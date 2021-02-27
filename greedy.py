@@ -4,7 +4,6 @@ from poke_env.player.random_player import RandomPlayer
 from poke_env.environment.pokemon_type import PokemonType
 import time
 import json
-from max_damage import MaxDamagePlayer
 #with open('type_chart.json','r') as f:
 #    type_chart = json.load(f) 
 
@@ -24,7 +23,7 @@ async def main():
 
     #random_player = RandomPlayer(battle_format='gen8randombattle')
     greedy = Greedy(battle_format='gen8randombattle')
-    opponent = MaxDamagePlayer(battle_format='gen8randombattle')
+    opponent = Greedy(battle_format='gen8randombattle')
     await greedy.battle_against(opponent,n_battles=50)
 
     print(f'Greedy player won {greedy.n_won_battles}; this process took {time.time()-start} seconds')
