@@ -4,6 +4,12 @@ Starter Files for Michigan Data Science Team Pokemon Bots Project
 Make sure both node.js v10+ and python 3.6+ are installed.
 If not already installed visit https://nodejs.org/en/ for node.js and https://www.python.org/downloads/ for python.
 
+First, start a virtualenv, see https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/ for help.
+Once your virtual environment is started, run
+```
+pip install requirements.txt
+```
+
 In terminal, install the python poke-env library
 ``` 
 pip install poke-env 
