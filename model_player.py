@@ -8,8 +8,8 @@ class ModelPlayer(Player):
     '''
     Model is a trained tf/keras model. Implements the predict function.
     '''
-    def __init__(self, model, env_player):
-        super().__init__()
+    def __init__(self, model, env_player, player_configuration=None, server_configuration=None):
+        super().__init__(player_configuration, server_configuration)
         self.model = model
         print(model.summary())
         self.env_player = env_player
